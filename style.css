@@ -18,7 +18,16 @@ p{
 h3{
   font-size: 22px;
 }
+section{
+  padding: 20px;
+  margin: auto;
+}
 .intro{
+  background-image: url(img/MV1.webp);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+  display: flex;
   margin-bottom: 10px;
 }
 .intro-img{
@@ -29,13 +38,12 @@ h3{
   float: left;
 }
 .intro-cont{
-  height: 500px;
   width: 50%;
   margin: auto;
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 400px;
 }
 .intro-cont h3{
   font-size: 32px;
@@ -71,55 +79,75 @@ h3{
   margin: auto;
   width: 1000px;
 }
+
 .tf{
   padding-top: 20px;
   height: 250px;
 }
-.team{
-  display: inline-block;
-}
-.info-train{
-  padding: 20px;
-  margin: auto;
-  width: 1000px;
-}
-.quote{
-  margin-top: 0;
-}
 .right{
   float: right;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .left{
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
-.infor-active{
-  padding: 20px;
-  width: 1000px;
-  margin: auto;
-
-}
-.tf-list{
-  max-width: 33%;
+.team{
   display: inline-block;
 }
-.list-image{
-  max-width: 100%;
-  height: 300px;
-  background-size: cover !important;
-  background-position: center !important;
-}
-.list-box{
-  width: 330px;
-}
-.tf-train{
-  padding:20px 0 20px;
-}
 .train{
-  margin: auto;
-  max-width: 100%;
-  height: 300px;
-  background-size: cover !important;
-  background-position: center !important;
+  display: flex;
+  margin-left: 100px;
+  margin-right:100px;
+}
+.train-card{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid #eaecf3;
+  border-radius: 0.75rem;
+  background-color: #EFFFFD;
+  background-clip: border-box;
+
+}
+.col{
+  margin: 10px;
+  width: 33.33%;
+  display: flex;
+}
+.card-body-img{
+ display: block;
+}
+.img-center{
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.train-cont-ttl{
+  font-size: 18px;
+}
+.active-cont-ttl{
+  font-size: 18px;
+  text-align: center;
+}
+
+.active-list{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.col-activities{
+  display:block;
+  margin: 10px;
+  width: 33%;
+}
+.img-center-active{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 200px;
 }
